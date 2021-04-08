@@ -13,3 +13,7 @@ nav {margin-bottom: 30px}
 
 h1 {font-size: 2em;}
 h2 {font-size: 1.5;}
+
+@media only screen and (max-width: 600px) {
+nav a {width: 100%; display: block;}
+}
