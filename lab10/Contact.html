@@ -7,6 +7,17 @@
         <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
         <style>
+            #skip {
+                position: absolute;
+                left: 10px;
+                background-color: #eeebdd;
+                border: 1px solid #810000;
+                color: black;
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
             .part1 {float: left; margin-left: 50px;}
             .colors {background-color: #e6e1cc; border-radius: 1em;}
             .colors {padding: 20px;}
@@ -28,8 +39,10 @@
         </style>
     </head>
     <body>
+        <a href="#maincontent" id="skip">Skip To Content</a><br>
         <nav><a href="index.html">Home</a> <a href="skills.html">Skills</a> <a href="Contact.html">Contact</a> </nav>
         <h1>Contact Information</h1>
+        <a id="maincontent"></a>
         <div class="colors">
             <div class="part1">
                 <p>
