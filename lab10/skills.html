@@ -5,16 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Skills</title>
         <style>
+            #skip {
+                position: absolute;
+                left: 10px;
+                background-color: #eeebdd;
+                border: 1px solid #810000;
+                color: black;
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
             table, th, td {border: 1px solid black}
         </style>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <a href="#maincontent" id="skip">Skip To Content</a><br>
         <nav><a href="index.html">Home</a> <a href="skills.html">Skills</a> <a href="Contact.html">Contact</a> </nav>
         <table>  
 
         <h1>Baber Khan Skills</h1>
-
+        <a id="maincontent"></a>
         <tr class="evenrow">
             <th>Category</th>
             <th>Skills</th>
