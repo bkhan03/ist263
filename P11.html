@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>P11</title>
+    <script>
+        function Leaving(){
+            alert('You Left This form element');
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <h1>P11</h1>
+        <form action="mailto:Bkhan03@syr.edu" method="POST">
+            <label for="firstname">Enter First Name:</label>
+            <input type="text" name="firstname" id="firstname" onblur="Leaving();"><br>
+           
+
+            <label for="comments">Enter Cool Facts:</label><br>
+            <textarea name="comments" id="comments" rows="10" cols="100"> Tell Us What You Think</textarea><br>
+
+            <input type="submit" value="Send Application">
+        </form>
+</body>
+</html>
