@@ -26,6 +26,21 @@
             h1 {font-size: 40px;}
             h1 {font-family: 'Bebas Neue', cursive;}
             body {font-family: 'Bebas Neue', cursive;}
+
+            body {
+                animation: fadeInAnimation ease 5s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        
         </style>
     </head>
 
@@ -38,7 +53,8 @@
                 <a href="Discography.html">Discography</a> <span style="color: #64dfdf;">|</span> 
                 <a href="side-project.html">Side Projects</a> 
             </nav>
-            <h1>DJ AND PRODUCER</h1>
+            
+                <h1>DJ AND PRODUCER</h1>
         </div>
         <main>
             <article>
