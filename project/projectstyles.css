@@ -5,3 +5,24 @@ nav a:hover {background-color: #6930c3;}
 nav a {color: #64dfdf;}
 h1 {color: #64dfdf;;}
 p  {color: #64dfdf;}
+
+body {--nav-load-time: 800ms}
+
+nav {
+    animation: nav-load var(--nav-load-time) ease-out;
+}
+
+h1 {
+    animation: nav-load var(--nav-load-time) ease-out;
+}
+
+
+@keyframes nav-load {
+    0%{
+        transform: translateY(-100%)
+    }
+    100%{
+        transform: translateY(0);
+
+}
+}
